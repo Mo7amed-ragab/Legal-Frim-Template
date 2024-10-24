@@ -1,0 +1,15 @@
+.swiper {
+    background-color: #d8ae76;
+    padding: 60px 60px;
+  }
+  .swiper-slide {
+    cursor: -webkit-grab;
+    cursor: grab;
+    overflow: hidden;
+    width: 204px;
+    margin-right: 30px;
+  }
+  .swiper-slide img {
+    height: 60px;
+    max-width: 100%;
+  }

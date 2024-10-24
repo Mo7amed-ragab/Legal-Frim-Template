@@ -1,0 +1,26 @@
+/* يمكنك تخصيص الستايل حسب احتياجاتك */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* ارتفاع البطاقة */
+}
+.card {
+  width: 320px; /* عرض البطاقة - يمكنك تعديله حسب الحاجة */
+  padding: 20px;
+  margin: 10px; /* هام: لإضافة مسافة بين البطاقات */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* أسلوب تخصيصي آخر يمكنك تحسينه أو تغييره حسب احتياجاتك */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #333;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  color: #000;
+}

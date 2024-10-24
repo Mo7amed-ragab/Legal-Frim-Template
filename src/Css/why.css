@@ -1,0 +1,167 @@
+.bg-why {
+  padding: 80px 0;
+}
+
+.why {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.why img {
+  width: 80%;
+}
+
+.rightWhy h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #363636;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.rightWhy p::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -40px;
+  width: 50px;
+  height: 1px;
+  background-color: #d8ae76;
+}
+
+.rightWhy .exc {
+  margin-top: 70px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+  color: #999999;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.icon-why {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.icon-why h4 {
+  color: #363636;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.icon-why p {
+  line-height: 23px;
+  color: #bdbdbd;
+}
+
+.font-icon {
+  font-size: 40px;
+  color: #d8ae76;
+  margin-right: 15px;
+  font-weight: thin;
+  font-style: light;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Phone styles */
+  .why {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon-why {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .rightWhy h1 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .rightWhy p::after {
+    bottom: -15px;
+  }
+
+  .rightWhy p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .icon-why h4 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .icon-why h6 {
+    line-height: 14px;
+  }
+
+  .font-icon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  /* Phone styles */
+  .why {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon-why {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .rightWhy h1 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .rightWhy p::after {
+    bottom: -15px;
+  }
+
+  .rightWhy p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .icon-why h4 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .icon-why h6 {
+    line-height: 14px;
+  }
+
+  .font-icon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+}

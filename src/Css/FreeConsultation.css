@@ -1,0 +1,112 @@
+.consultation-sec {
+  display: flex;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 990px) {
+  .consultation-sec {
+    display: block;
+  }
+
+  .consultation-content p {
+    width: 450px;
+  }
+
+  .form-section form {
+    width: 500px;
+  }
+
+  .consultation-img {
+    width: 100%;
+  }
+}
+
+.consultation-img {
+  width: 560px;
+  height: 833px;
+  background: url('../img/bg-2.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 80px 0;
+}
+
+.form-section {
+  width: calc(100% - 560px);
+}
+
+.form-section {
+  padding: 80px 15px;
+}
+
+.consultation-content h2 {
+  font-family: 'Merriweather', serif;
+  color: #363636;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  padding-bottom: 0;
+}
+
+.consultation-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 35px;
+  margin-top: 26px;
+  color: #999999;
+}
+
+.consultation-content {
+  position: relative;
+}
+
+.consultation-content::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -20;
+  margin-bottom: 40px;
+  width: 50px;
+  height: 1px;
+  background-color: #d8ae76;
+}
+
+.form-section form {
+  margin-top: 100px;
+}
+
+.form-section input,
+.form-section textarea,
+.form-section select {
+  background: #f2f2f2;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.form-section input:focus,
+.form-section textarea:focus,
+.form-section select:focus {
+  background: #f2f2f2;
+  box-shadow: none;
+  border-color: #d8ae76;
+}
+
+.sub-btn[type='submit'] {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  border: 0;
+  background-color: #d8ae76;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 6px;
+  width: 210px;
+  height: 53px;
+  transition: all 0.3s;
+}
+
+.sub-btn[type='submit']:hover {
+  color: #fff;
+  background-color: #222;
+}
