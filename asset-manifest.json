@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Legal-Frim-Template/static/css/main.ecf77fc5.css",
+    "main.js": "/Legal-Frim-Template/static/js/main.ae741681.js",
+    "static/media/about-man.png": "/Legal-Frim-Template/static/media/about-man.d8864538708ce8dc4e1d.png",
+    "static/media/bg-2.jpg": "/Legal-Frim-Template/static/media/bg-2.a613dfb473c8e5fbf6b8.jpg",
+    "static/media/1.jpg": "/Legal-Frim-Template/static/media/1.cce10ddcdddec44610ce.jpg",
+    "static/media/blog (7).jpg": "/Legal-Frim-Template/static/media/blog (7).9c4c7ed9dff80ea21130.jpg",
+    "static/media/man-why.jpg": "/Legal-Frim-Template/static/media/man-why.651ed2f013f6697be9f0.jpg",
+    "static/media/team-2.jpg": "/Legal-Frim-Template/static/media/team-2.cf7fa0da15bb9ce8af79.jpg",
+    "static/media/blog (4).jpg": "/Legal-Frim-Template/static/media/blog (4).722c09801a03f143dacf.jpg",
+    "static/media/team-3.jpg": "/Legal-Frim-Template/static/media/team-3.640ed351aaf43471d05f.jpg",
+    "static/media/team-1.jpg": "/Legal-Frim-Template/static/media/team-1.fc08896a35ccdfc351e0.jpg",
+    "static/media/blog (8).jpg": "/Legal-Frim-Template/static/media/blog (8).915e770c8a71a16f2b68.jpg",
+    "static/media/blog (6).jpg": "/Legal-Frim-Template/static/media/blog (6).d6708dc7eae5c8255a88.jpg",
+    "static/media/blog (1).jpg": "/Legal-Frim-Template/static/media/blog (1).ab8e6324140afe0479f9.jpg",
+    "static/media/blog (5).jpg": "/Legal-Frim-Template/static/media/blog (5).ab8e6324140afe0479f9.jpg",
+    "static/media/blog (2).jpg": "/Legal-Frim-Template/static/media/blog (2).cd69fa2207e981df43c3.jpg",
+    "static/media/blog (3).jpg": "/Legal-Frim-Template/static/media/blog (3).342f5a02762504c189d1.jpg",
+    "static/media/blog (9).jpg": "/Legal-Frim-Template/static/media/blog (9).02ba7602386c2a0f9ea9.jpg",
+    "static/media/img2.png": "/Legal-Frim-Template/static/media/img2.b960a2c4bbcec1f58aa4.png",
+    "static/media/img3.png": "/Legal-Frim-Template/static/media/img3.29850e98f6de7dda36b9.png",
+    "static/media/img1.png": "/Legal-Frim-Template/static/media/img1.e49113214030cdce241f.png",
+    "static/media/slick.svg": "/Legal-Frim-Template/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Legal-Frim-Template/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Legal-Frim-Template/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Legal-Frim-Template/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Legal-Frim-Template/index.html",
+    "main.ecf77fc5.css.map": "/Legal-Frim-Template/static/css/main.ecf77fc5.css.map",
+    "main.ae741681.js.map": "/Legal-Frim-Template/static/js/main.ae741681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecf77fc5.css",
+    "static/js/main.ae741681.js"
+  ]
+}
